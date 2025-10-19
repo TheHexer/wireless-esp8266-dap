@@ -5,7 +5,7 @@
  * @brief Specify the use of WINUSB
  *
  */
-#define USE_WINUSB 0
+#define USE_WINUSB 1
 
 /**
  * @brief Enable this option, no need to physically connect MOSI and MISO
@@ -53,6 +53,6 @@
  * Only available for SWD.
  *
  */
-#define USE_FORCE_SYSRESETREQ_AFTER_FLASH 0
+#define USE_FORCE_SYSRESETREQ_AFTER_FLASH 1
 
 #endif
